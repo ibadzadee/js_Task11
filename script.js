@@ -16,7 +16,7 @@ emojis.forEach((emoji, index) => {
             div.style.display = index === divIndex ? "flex" : "none";
         });
 
-        btn.innerText = emoji.nextElementSibling.innerText;
+        btn.innerText = "Thanks for feedback"
         eye.innerText = emoji.innerText;
         div.style.background = getBackgroundColor(index);
     });
@@ -40,7 +40,7 @@ function getBackgroundColor(index) {
         //     unhappyDiv.firstElementChild.style.scale = "1"
         //     neutralDiv.style.display = "none"
         //     satisfiedDiv.style.display = "none"
-        //     btn.innerText = unhappy.nextElementSibling.innerText;
+        //     btn.innerText = "Thanks for feedback"
         //     eye.innerText = unhappy.innerText
         //     div.style.background = "red"
         // })
@@ -49,7 +49,7 @@ function getBackgroundColor(index) {
         //     neutralDiv.firstElementChild.style.scale = "1"
         //     unhappyDiv.style.display = "none"
         //     satisfiedDiv.style.display = "none"
-        //     btn.innerText = neutral.nextElementSibling.innerText;
+        //     btn.innerText ="Thanks for feedback"
         //     eye.innerText = neutral.innerText
         //     div.style.background = "blue"
         // })
@@ -58,7 +58,7 @@ function getBackgroundColor(index) {
         //     satisfiedDiv.firstElementChild.style.scale = "1"
         //     unhappyDiv.style.display = "none"
         //     neutralDiv.style.display = "none"
-        //     btn.innerText = satisfied.nextElementSibling.innerText;
+        //     btn.innerText = "Thanks for feedback"
         //     eye.innerText = satisfied.innerText
         //     div.style.background = "darkslategray"
         // })
