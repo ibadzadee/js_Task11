@@ -23,7 +23,7 @@ emojis.forEach((emoji, index) => {
 });
 
 function getBackgroundColor(index) {
-    const colors = ["red", "blue", "darkslategray"];
+    const colors = ["red", "blue", "green"];
     return colors[index];
 }
 
